@@ -7,21 +7,21 @@ products = [
         "name": "Laptop Pro",
         "price": 75000,
         "description": "A high-performance laptop for work and gaming.",
-        'image': '/static/image/1.jpg'
+        'image': '/static/images/1.jpg'
     },
     {
         "id": 2,
         "name": "Smartphone X",
         "price": 45000,
         "description": "A sleek smartphone with a powerful camera.",
-        'image': '/static/image/2.jpg'
+        'image': '/static/images/2.jpg'
     },
     {
         "id": 3,
         "name": "Wireless Headphones",
         "price": 3499,
         "description": "Noise-cancelling headphones with deep bass.",
-        'image': '/static/image/3.jpg'
+        'image': '/static/images/3.jpg'
     }
 ]
 cart = []
