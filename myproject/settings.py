@@ -116,4 +116,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+
+# For local development (collecting static from your app)
+STATICFILES_DIRS = [
+    BASE_DIR / 'recipes' / 'static',
+]
+
+# For Render (collectstatic writes here)
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
